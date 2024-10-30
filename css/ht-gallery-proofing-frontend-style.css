@@ -1,0 +1,53 @@
+
+/*------------------------------------------------------------------------------
+HT Gallery Proofing Styles
+------------------------------------------------------------------------------*/
+
+.gallery-proofing-vote-action i{
+	font-size: 300%;
+}
+
+#single-gallery-proofing  ul {
+	list-style: none;
+}
+
+#single-gallery-proofing ul li {
+	position: relative;
+}
+
+.gallery-proofing-voting-box {
+	position: absolute;
+	top: 20px;
+	left: 30px;
+}
+
+.gallery-proofing-voting-box{
+	background-color: black;
+	padding: 5px;
+}
+
+
+.gallery-proofing-voting-box a, .gallery-proofing-voting-box a:hover, .gallery-proofing-voting-box a:visited {
+	display: block;
+	background-color: white;
+	color: blue;
+}
+
+.gallery-proofing-voting-box a.voted {
+	color: green;
+}
+
+
+
+.gallery-proofing-voting-box.voted {
+	background-color: black;
+}
+
+.ht-gallery-proofing-votes{
+	color: white;
+	display: none;
+}	
+
+a.gallery-proofing-vote-action:hover + .ht-gallery-proofing-votes{
+	display: block;
+}

@@ -1,0 +1,42 @@
+#proofing-metabox-content {
+	display: block;
+}
+
+.proofing-option-section {
+	display: block;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+
+.proofing-option-title {
+	display: block;
+	float: left;
+	width: 250px;
+	font-family: sans-serif;
+	font-size: 14px;
+	
+}
+
+.proofing-option-values {
+	display: block;
+	float: left;
+}
+
+.gallery-proofing-datetime {
+	display: block;
+	clear: left;
+}
+
+#protection-user-search {
+	width: 300px;
+}
+
+#protection-user-checkboxes { 
+	padding: 5px;
+	border:2px solid #ccc; 
+	width:300px; 
+	height: 100px; 
+	overflow-y: scroll; 
+}
+
+
